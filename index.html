@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav class="site-menu" aria-hidden="true">
+            <ul>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#ubiacion">ubicacion</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="info" class="place-section">
+        <div class="place-info" style="--bg-url: url('images/place.jpg')">
+            <div class="place-content">
+                <h2 class="place-name">Nombre del Lugar</h2>
+                <p class="place-description">Descripción breve del lugar. Añade aquí información relevante sobre historia, atractivo o ambiente.</p>
+                <ul class="place-details">
+                    <li><strong>Dirección:</strong> Calle Ejemplo 123</li>
+                    <li><strong>info:</strong>info importante</li>
+                    <li><strong>Contacto:</strong> +34 600 000 000</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="script.js" defer></script>
+</body>
+</html>
